@@ -3,6 +3,7 @@ shadowsocks爬虫，从www.ishadowsocks.org爬取数据。
 
 ## 使用方法
 目前仅支持Mac OS，需要安装Scrapy框架和Shadowsocks for OSX。
+只爬取服务器A信息！
 
 **首先，请备份/Users/XXX/Library/Preferences/clowwindy.ShadowsocksX.plist**
 要恢复配置文件，执行
