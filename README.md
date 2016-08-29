@@ -17,17 +17,17 @@ shadowsocks爬虫，从www.ishadowsocks.org爬取数据。
 > ShadowsocksX:
 > https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-帮助
 
-1. 下载后将ishadowsocks文件夹放入任意目录
+1. 下载后将ishadowsocks文件夹和scrapy.cfg一起放入任意目录
 
-2. 打开Terminal，进入ishadowsocks目录，执行
+2. 打开Terminal，进入该目录目录，执行
 
  `scrapy crawl ishadowsocks`
 
 方法二：
 配合Alfred Workflow食用更酸爽~
 
-1. 下载后将ishadowsocks文件夹放入系统主目录（可以放在任意位置，但要相应的修改workflow）
-2. 安装ishadowsocks文件夹中的workflow
+1. 下载后将ishadowsocks文件夹和scrapy.cfg一起放入任意目录（要相应的修改workflow中的路径）
+2. 安装workflow
 3. 打开Alfred2 输入ss 回车即可
 
 
