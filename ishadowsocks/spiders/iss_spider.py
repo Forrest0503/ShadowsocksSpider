@@ -61,7 +61,10 @@ class PlistGenerator():
                 plist["proxy ip"] = "US1.ISS.TF"
                 return plist
             else:
-                print("Error1")
+                newPlist = {'ShadowsocksIsRunning': True, 'proxy encryption': 'aes-256-cfb', 'PBS': 'Copv9p5PRHLeK66opkTUkg/nOAlBLd9A3+659k/x3nUmz2O1HoVxtuxOjhRzVzNG', 'ShadowsocksMode': 'auto', 'public server': False, 'proxy port': '443', 'proxy password': password, 'proxy ip': 'US1.ISS.TF', 'config': ''}
+                newConfig = '{"current":2,"profiles":[{"password":' + password + ',"method":"aes-256-cfb","server_port":21719,"remarks":"","server":"US1.ISS.TF"}]'
+                newPlist["config"] = Data(newConfig)
+                return newPlist
         except (InvalidPlistException, NotBinaryPlistException), e:
             print "Not a plist:", e
 
