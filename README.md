@@ -11,15 +11,15 @@ shadowsocks爬虫，从www.ishadowsocks.org爬取数据。
 
 方法一：
 
-0. 安装Scrapy框架和ShadowsocksX
+0.安装Scrapy框架和ShadowsocksX
 
 `pip install scrapy`
 > ShadowsocksX:
 > https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-帮助
 
-1. 下载后将ishadowsocks文件夹和scrapy.cfg一起放入任意目录
+1.下载后将ishadowsocks文件夹和scrapy.cfg一起放入任意目录
 
-2. 打开Terminal，进入该目录目录，执行
+2.打开Terminal，进入该目录目录，执行
 
  `scrapy crawl ishadowsocks`
 
